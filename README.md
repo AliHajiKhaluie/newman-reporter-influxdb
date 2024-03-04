@@ -2,17 +2,10 @@
 
 Okala InfluxDB reporter for [Newman](https://github.com/postmanlabs/newman) sends the test results information to InfluxDB which can be used from Grafana to build dashboard.
 
-<a href="https://www.npmjs.com/package/newman-reporter-influxdb">
-  <img alt="npm version" src="https://img.shields.io/npm/v/newman-reporter-influxdb.svg">
-  <img alt="npm downloads" src="https://img.shields.io/npm/dm/newman-reporter-influxdb.svg">
-  <img alt="code license" src="https://img.shields.io/github/license/vs4vijay/newman-reporter-influxdb">
-  <img alt="npm publish" src="https://github.com/vs4vijay/newman-reporter-influxdb/workflows/npm publish/badge.svg">
-</a>
-
 ## Getting Started
 
 1. Install `newman`
-2. Install `newman-reporter-influxdb`
+2. Install `okala-newman-reporter-influxdb`
 3. Install InfluxDB (Get the server address, port, database name, etc)
 
 ### Prerequisites
@@ -26,7 +19,7 @@ Okala InfluxDB reporter for [Newman](https://github.com/postmanlabs/newman) send
 ## Installation
 
 ```console
-npm install -g newman-reporter-influxdb
+npm install -g okala-newman-reporter-influxdb
 ```
 
 > Installation should be done globally if newman is installed globally, otherwise install without `-g` option
