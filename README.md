@@ -1,6 +1,6 @@
-# newman-reporter-influxdb
+# okala-newman-reporter-influxdb
 
-InfluxDB reporter for [Newman](https://github.com/postmanlabs/newman) that sends the test results information to InfluxDB (1.x, 2.x) which can be used from Grafana to build dashboard.
+Okala InfluxDB reporter for [Newman](https://github.com/postmanlabs/newman) sends the test results information to InfluxDB which can be used from Grafana to build dashboard.
 
 <a href="https://www.npmjs.com/package/newman-reporter-influxdb">
   <img alt="npm version" src="https://img.shields.io/npm/v/newman-reporter-influxdb.svg">
