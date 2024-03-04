@@ -169,9 +169,10 @@ class InfluxDBReporter {
       delete data.skipped;
     }
 
-    let binaryData = querystring.stringify(data, ',', '=', { encodeURIComponent: this._encodeURIComponent });
-    binaryData = `${measurementName},${binaryData} value=${data.response_time}\n`;
-    return binaryData;
+      	const value = data.test_status === 'PASS' ? 1 : 0;
+      	let binaryData = querystring.stringify(data, ',', '=', { encodeURIComponent: this._encodeURIComponent });
+      	binaryData = ${measurementName},${binaryData} value=${value}\n;
+        return binaryData;
   }
 
   _encodeURIComponent(str) {
